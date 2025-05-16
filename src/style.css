@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+.text-ghibliText {
+    color: var(--color-ghibliText);
+  }
+  
+  .bg-ghibliGreen {
+    background-color: var(--color-ghibliGreen);
+  }
+  
+  .font-sans {
+    font-family: var(--font-sans);
+  }
+  .ghibli-button {
+    background: linear-gradient(45deg, #88B04B, #92A8D1);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@theme {
+    --color-primary: #F5F5F5;      /* Soft white */
+    --color-secondary: #5D4037;    /* Dark brown */
+  
+    --color-ghibliGreen: #88B04B;  /* Forest green */
+    --color-ghibliPink: #F7CAC9;   /* Soft pink */
+    --color-ghibliBlue: #92A8D1;   /* Sky blue */
+    --color-ghibliBrown: #8B4513;  /* Earth brown */
+    --color-ghibliCream: #FFF8E1;  /* Soft cream */
+    --color-ghibliGold: #D4B483;   /* Warm gold */
+  
+    --color-ghibliText: #4A4A4A;       
+    --color-ghibliTextLight: #6B6B6B;  
+    --color-ghibliTextDark: #2C2C2C;   
+  
+    --color-ghibliBgLight: #FFF8E1;    
+    --color-ghibliBgDark: #2C3E50;    
+  
+    /* Fonts */
+    --font-sans: 'Quicksand', sans-serif;
+    --font-mono: 'Fira Code', monospace;
+
+    --breakpoint-3xl: 120rem;
+    --color-avocado-100: oklch(0.99 0 0);
+    --color-avocado-200: oklch(0.98 0.04 113.22);
+    --color-avocado-300: oklch(0.94 0.11 115.03);
+    --color-avocado-400: oklch(0.92 0.19 114.08);
+    --color-avocado-500: oklch(0.84 0.18 117.33);
+    --color-avocado-600: oklch(0.53 0.12 118.34);
+    --ease-fluid: cubic-bezier(0.3, 0, 0, 1);
+    --ease-snappy: cubic-bezier(0.2, 0, 0, 1);
+    /* ... */
+  }
